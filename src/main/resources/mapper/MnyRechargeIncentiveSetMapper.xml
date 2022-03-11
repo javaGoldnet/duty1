@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyRechargeIncentiveSetMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyRechargeIncentiveSetMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyRechargeIncentiveSet">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyRechargeIncentiveSet">
             <result property="id" column="id" jdbcType="OTHER"/>
             <result property="pay_type" column="pay_type" jdbcType="VARCHAR"/>
             <result property="pay_type_name" column="pay_type_name" jdbcType="VARCHAR"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyDocKindMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyDocKindMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyDocKind">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyDocKind">
             <id property="kind_id" column="kind_id" jdbcType="OTHER"/>
             <result property="kind_name" column="kind_name" jdbcType="VARCHAR"/>
             <result property="create_user" column="create_user" jdbcType="VARCHAR"/>

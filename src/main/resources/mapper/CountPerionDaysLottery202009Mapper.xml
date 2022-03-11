@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.CountPerionDaysLottery202009Mapper">
+<mapper namespace="com.goldnet.duty.mapper.CountPerionDaysLottery202009Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.CountPerionDaysLottery202009">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.CountPerionDaysLottery202009">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="account0" column="account0" jdbcType="OTHER"/>
             <result property="account1" column="account1" jdbcType="OTHER"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TempManDepositMapper">
+<mapper namespace="com.goldnet.duty.mapper.TempManDepositMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TempManDeposit">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TempManDeposit">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="batch_no" column="batch_no" jdbcType="VARCHAR"/>
             <result property="status" column="status" jdbcType="OTHER"/>

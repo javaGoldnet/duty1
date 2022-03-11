@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyPreActivityDocMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyPreActivityDocMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyPreActivityDoc">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyPreActivityDoc">
             <id property="doc_id" column="doc_id" jdbcType="OTHER"/>
             <result property="doc_name" column="doc_name" jdbcType="VARCHAR"/>
             <result property="auditing_status" column="auditing_status" jdbcType="OTHER"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.ApiFailAccountMapper">
+<mapper namespace="com.goldnet.duty.mapper.ApiFailAccountMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.ApiFailAccount">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.ApiFailAccount">
             <id property="api_fail_acount_record_id" column="api_fail_acount_record_id" jdbcType="OTHER"/>
             <result property="account_id" column="account_id" jdbcType="OTHER"/>
             <result property="account" column="account" jdbcType="VARCHAR"/>

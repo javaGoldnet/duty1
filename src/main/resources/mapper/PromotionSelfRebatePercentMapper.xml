@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.PromotionSelfRebatePercentMapper">
+<mapper namespace="com.goldnet.duty.mapper.PromotionSelfRebatePercentMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.PromotionSelfRebatePercent">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.PromotionSelfRebatePercent">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="account1" column="account1" jdbcType="OTHER"/>
             <result property="rebate_type" column="rebate_type" jdbcType="OTHER"/>

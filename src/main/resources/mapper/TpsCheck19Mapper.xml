@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TpsCheck19Mapper">
+<mapper namespace="com.goldnet.duty.mapper.TpsCheck19Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TpsCheck19">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TpsCheck19">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="check_id" column="check_id" jdbcType="OTHER"/>
             <result property="member_id" column="member_id" jdbcType="OTHER"/>

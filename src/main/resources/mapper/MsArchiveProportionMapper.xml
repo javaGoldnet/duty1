@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MsArchiveProportionMapper">
+<mapper namespace="com.goldnet.duty.mapper.MsArchiveProportionMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MsArchiveProportion">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MsArchiveProportion">
             <id property="archive_proportion_id" column="archive_proportion_id" jdbcType="OTHER"/>
             <result property="archive_details_id" column="archive_details_id" jdbcType="OTHER"/>
             <result property="min_quota" column="min_quota" jdbcType="NUMERIC"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.ZGeMoneyTrgMapper">
+<mapper namespace="com.goldnet.duty.mapper.ZGeMoneyTrgMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.ZGeMoneyTrg">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.ZGeMoneyTrg">
             <result property="id" column="id" jdbcType="BIGINT"/>
             <result property="befer_money" column="befer_money" jdbcType="NUMERIC"/>
             <result property="after_money" column="after_money" jdbcType="NUMERIC"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TaskLogMapper">
+<mapper namespace="com.goldnet.duty.mapper.TaskLogMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TaskLog">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TaskLog">
             <id property="task_log_id" column="task_log_id" jdbcType="OTHER"/>
             <result property="task_name" column="task_name" jdbcType="VARCHAR"/>
             <result property="fail_amount" column="fail_amount" jdbcType="OTHER"/>

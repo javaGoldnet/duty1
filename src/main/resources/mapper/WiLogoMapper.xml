@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.WiLogoMapper">
+<mapper namespace="com.goldnet.duty.mapper.WiLogoMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.WiLogo">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.WiLogo">
             <id property="logo_id" column="logo_id" jdbcType="OTHER"/>
             <result property="logo_code" column="logo_code" jdbcType="VARCHAR"/>
             <result property="logo_name" column="logo_name" jdbcType="VARCHAR"/>

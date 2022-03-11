@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.OldTpsAccountInfoMapper">
+<mapper namespace="com.goldnet.duty.mapper.OldTpsAccountInfoMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.OldTpsAccountInfo">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.OldTpsAccountInfo">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="station_id" column="station_id" jdbcType="OTHER"/>
             <result property="account_id1" column="account_id1" jdbcType="OTHER"/>

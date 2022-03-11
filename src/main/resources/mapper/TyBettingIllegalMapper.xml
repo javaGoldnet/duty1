@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TyBettingIllegalMapper">
+<mapper namespace="com.goldnet.duty.mapper.TyBettingIllegalMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TyBettingIllegal">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TyBettingIllegal">
             <id property="illegal_id" column="illegal_id" jdbcType="OTHER"/>
             <result property="key" column="key" jdbcType="VARCHAR"/>
             <result property="sdate" column="sdate" jdbcType="TIMESTAMP"/>

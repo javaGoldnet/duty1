@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.WiDefaultPicMapper">
+<mapper namespace="com.goldnet.duty.mapper.WiDefaultPicMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.WiDefaultPic">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.WiDefaultPic">
             <id property="pic_id" column="pic_id" jdbcType="OTHER"/>
             <result property="ddgd_id" column="ddgd_id" jdbcType="OTHER"/>
             <result property="type_id" column="type_id" jdbcType="OTHER"/>

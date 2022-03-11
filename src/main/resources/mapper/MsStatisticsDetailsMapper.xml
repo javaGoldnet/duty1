@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MsStatisticsDetailsMapper">
+<mapper namespace="com.goldnet.duty.mapper.MsStatisticsDetailsMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MsStatisticsDetails">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MsStatisticsDetails">
             <id property="archive_details_id" column="archive_details_id" jdbcType="OTHER"/>
             <result property="ms_archive_id" column="ms_archive_id" jdbcType="OTHER"/>
             <result property="game_name" column="game_name" jdbcType="VARCHAR"/>

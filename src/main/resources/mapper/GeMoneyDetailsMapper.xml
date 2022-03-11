@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeMoneyDetailsMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeMoneyDetailsMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeMoneyDetails">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeMoneyDetails">
             <result property="money_details_id" column="money_details_id" jdbcType="OTHER"/>
             <result property="account_id" column="account_id" jdbcType="OTHER"/>
             <result property="operate_type" column="operate_type" jdbcType="VARCHAR"/>

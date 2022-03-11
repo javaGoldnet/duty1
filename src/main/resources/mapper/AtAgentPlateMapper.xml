@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.AtAgentPlateMapper">
+<mapper namespace="com.goldnet.duty.mapper.AtAgentPlateMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.AtAgentPlate">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.AtAgentPlate">
             <id property="agent_plate_id" column="agent_plate_id" jdbcType="OTHER"/>
             <result property="account_id" column="account_id" jdbcType="OTHER"/>
             <result property="lottery_type" column="lottery_type" jdbcType="VARCHAR"/>

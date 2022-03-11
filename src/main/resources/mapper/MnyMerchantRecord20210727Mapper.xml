@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyMerchantRecord20210727Mapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyMerchantRecord20210727Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyMerchantRecord20210727">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyMerchantRecord20210727">
             <result property="id" column="id" jdbcType="OTHER"/>
             <result property="amount" column="amount" jdbcType="NUMERIC"/>
             <result property="account" column="account" jdbcType="VARCHAR"/>

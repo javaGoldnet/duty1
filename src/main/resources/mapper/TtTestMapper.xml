@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TtTestMapper">
+<mapper namespace="com.goldnet.duty.mapper.TtTestMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TtTest">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TtTest">
             <id property="test_id" column="test_id" jdbcType="OTHER"/>
             <result property="return_var" column="return_var" jdbcType="VARCHAR"/>
             <result property="remark" column="remark" jdbcType="VARCHAR"/>

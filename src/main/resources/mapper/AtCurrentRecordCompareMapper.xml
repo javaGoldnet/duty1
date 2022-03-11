@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.AtCurrentRecordCompareMapper">
+<mapper namespace="com.goldnet.duty.mapper.AtCurrentRecordCompareMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.AtCurrentRecordCompare">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.AtCurrentRecordCompare">
             <result property="durl" column="durl" jdbcType="VARCHAR"/>
             <result property="trade_limit" column="trade_limit" jdbcType="NUMERIC"/>
             <result property="remark" column="remark" jdbcType="VARCHAR"/>

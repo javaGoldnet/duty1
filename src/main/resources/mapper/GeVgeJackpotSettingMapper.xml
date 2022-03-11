@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeVgeJackpotSettingMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeVgeJackpotSettingMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeVgeJackpotSetting">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeVgeJackpotSetting">
             <result property="jsid" column="jsid" jdbcType="OTHER"/>
             <result property="grand_chance" column="grand_chance" jdbcType="NUMERIC"/>
             <result property="major_chance" column="major_chance" jdbcType="NUMERIC"/>

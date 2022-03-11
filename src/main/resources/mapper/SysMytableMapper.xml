@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysMytableMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysMytableMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysMytable">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysMytable">
             <id property="user_id" column="user_id" jdbcType="VARCHAR"/>
             <result property="user_name" column="user_name" jdbcType="VARCHAR"/>
     </resultMap>

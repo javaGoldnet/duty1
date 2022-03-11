@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyPeriodsMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyPeriodsMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyPeriods">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyPeriods">
             <id property="periods_id" column="periods_id" jdbcType="OTHER"/>
             <result property="currency_id" column="currency_id" jdbcType="OTHER"/>
             <result property="ddgd_id" column="ddgd_id" jdbcType="OTHER"/>

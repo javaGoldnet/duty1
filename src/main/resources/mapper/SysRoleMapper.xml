@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysRoleMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysRoleMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysRole">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysRole">
             <result property="role_id" column="role_id" jdbcType="OTHER"/>
             <result property="create_date_time" column="create_date_time" jdbcType="TIMESTAMP"/>
             <result property="update_date_time" column="update_date_time" jdbcType="TIMESTAMP"/>

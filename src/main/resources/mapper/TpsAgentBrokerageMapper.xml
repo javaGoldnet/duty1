@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TpsAgentBrokerageMapper">
+<mapper namespace="com.goldnet.duty.mapper.TpsAgentBrokerageMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TpsAgentBrokerage">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TpsAgentBrokerage">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="brokerage_id" column="brokerage_id" jdbcType="OTHER"/>
             <result property="platform_id" column="platform_id" jdbcType="OTHER"/>

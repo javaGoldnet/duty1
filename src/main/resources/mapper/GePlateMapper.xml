@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GePlateMapper">
+<mapper namespace="com.goldnet.duty.mapper.GePlateMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GePlate">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GePlate">
             <id property="plate_id" column="plate_id" jdbcType="OTHER"/>
             <result property="plate_name" column="plate_name" jdbcType="VARCHAR"/>
             <result property="status" column="status" jdbcType="OTHER"/>

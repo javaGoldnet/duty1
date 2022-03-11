@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.AppDomainMapper">
+<mapper namespace="com.goldnet.duty.mapper.AppDomainMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.AppDomain">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.AppDomain">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="station_id" column="station_id" jdbcType="OTHER"/>
             <result property="stockholder_id" column="stockholder_id" jdbcType="OTHER"/>

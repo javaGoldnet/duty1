@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysPaySystemMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysPaySystemMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysPaySystem">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysPaySystem">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="pay_name" column="pay_name" jdbcType="VARCHAR"/>
             <result property="pay_send_url" column="pay_send_url" jdbcType="VARCHAR"/>

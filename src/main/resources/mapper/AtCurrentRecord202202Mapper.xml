@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.AtCurrentRecord202202Mapper">
+<mapper namespace="com.goldnet.duty.mapper.AtCurrentRecord202202Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.AtCurrentRecord202202">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.AtCurrentRecord202202">
             <id property="current_record_id" column="current_record_id" jdbcType="BIGINT"/>
             <result property="money_type" column="money_type" jdbcType="OTHER"/>
             <result property="account_id" column="account_id" jdbcType="OTHER"/>

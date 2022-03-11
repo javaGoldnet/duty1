@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyCheckDrawMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyCheckDrawMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyCheckDraw">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyCheckDraw">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="create_user" column="create_user" jdbcType="VARCHAR"/>
             <result property="create_time" column="create_time" jdbcType="TIMESTAMP"/>

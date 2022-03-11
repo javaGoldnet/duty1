@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeZqBaseSettingMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeZqBaseSettingMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeZqBaseSetting">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeZqBaseSetting">
             <id property="base_set_id" column="base_set_id" jdbcType="OTHER"/>
             <result property="mix_min" column="mix_min" jdbcType="OTHER"/>
             <result property="mix_max" column="mix_max" jdbcType="OTHER"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TpsEventDetailsMapper">
+<mapper namespace="com.goldnet.duty.mapper.TpsEventDetailsMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TpsEventDetails">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TpsEventDetails">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="platform" column="platform" jdbcType="VARCHAR"/>
             <result property="game_code" column="game_code" jdbcType="VARCHAR"/>

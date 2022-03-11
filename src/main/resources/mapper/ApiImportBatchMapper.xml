@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.ApiImportBatchMapper">
+<mapper namespace="com.goldnet.duty.mapper.ApiImportBatchMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.ApiImportBatch">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.ApiImportBatch">
             <result property="id" column="id" jdbcType="OTHER"/>
             <result property="account" column="account" jdbcType="VARCHAR"/>
             <result property="import_date" column="import_date" jdbcType="TIMESTAMP"/>

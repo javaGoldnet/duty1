@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeOddsMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeOddsMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeOdds">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeOdds">
             <result property="odds_id" column="odds_id" jdbcType="OTHER"/>
             <result property="project" column="project" jdbcType="VARCHAR"/>
             <result property="odds" column="odds" jdbcType="NUMERIC"/>

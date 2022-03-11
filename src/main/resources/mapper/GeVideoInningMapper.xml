@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeVideoInningMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeVideoInningMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeVideoInning">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeVideoInning">
             <id property="inning_id" column="inning_id" jdbcType="OTHER"/>
             <result property="create_date_time" column="create_date_time" jdbcType="TIMESTAMP"/>
             <result property="update_date_time" column="update_date_time" jdbcType="TIMESTAMP"/>

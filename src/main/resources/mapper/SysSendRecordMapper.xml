@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysSendRecordMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysSendRecordMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysSendRecord">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysSendRecord">
             <result property="id" column="id" jdbcType="OTHER"/>
             <result property="message_id" column="message_id" jdbcType="OTHER"/>
             <result property="target_level" column="target_level" jdbcType="OTHER"/>

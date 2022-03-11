@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.ZZombinMapper">
+<mapper namespace="com.goldnet.duty.mapper.ZZombinMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.ZZombin">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.ZZombin">
             <result property="id" column="id" jdbcType="OTHER"/>
             <result property="oldid" column="oldid" jdbcType="OTHER"/>
             <result property="oldaccount" column="oldaccount" jdbcType="VARCHAR"/>

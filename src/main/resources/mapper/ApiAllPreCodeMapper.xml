@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.ApiAllPreCodeMapper">
+<mapper namespace="com.goldnet.duty.mapper.ApiAllPreCodeMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.ApiAllPreCode">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.ApiAllPreCode">
             <id property="pre_code" column="pre_code" jdbcType="VARCHAR"/>
     </resultMap>
 

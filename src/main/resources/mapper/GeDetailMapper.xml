@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeDetailMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeDetailMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeDetail">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeDetail">
             <id property="detai_id" column="detai_id" jdbcType="OTHER"/>
             <result property="single_max_money" column="single_max_money" jdbcType="OTHER"/>
             <result property="project_max_money" column="project_max_money" jdbcType="OTHER"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyPreStatisticsEventMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyPreStatisticsEventMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyPreStatisticsEvent">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyPreStatisticsEvent">
             <id property="event_id" column="event_id" jdbcType="OTHER"/>
             <result property="event_no" column="event_no" jdbcType="VARCHAR"/>
             <result property="event_details" column="event_details" jdbcType="VARCHAR"/>

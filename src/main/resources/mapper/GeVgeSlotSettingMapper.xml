@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeVgeSlotSettingMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeVgeSlotSettingMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeVgeSlotSetting">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeVgeSlotSetting">
             <id property="slot_set_id" column="slot_set_id" jdbcType="OTHER"/>
             <result property="slot_type" column="slot_type" jdbcType="OTHER"/>
             <result property="slot_num" column="slot_num" jdbcType="OTHER"/>

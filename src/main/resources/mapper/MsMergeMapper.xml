@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MsMergeMapper">
+<mapper namespace="com.goldnet.duty.mapper.MsMergeMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MsMerge">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MsMerge">
             <id property="merge_id" column="merge_id" jdbcType="OTHER"/>
             <result property="template_id" column="template_id" jdbcType="OTHER"/>
             <result property="game_ids" column="game_ids" jdbcType="OTHER"/>

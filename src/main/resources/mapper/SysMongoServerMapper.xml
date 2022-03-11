@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysMongoServerMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysMongoServerMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysMongoServer">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysMongoServer">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="name" column="name" jdbcType="VARCHAR"/>
             <result property="host_url" column="host_url" jdbcType="VARCHAR"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeStation20210727Mapper">
+<mapper namespace="com.goldnet.duty.mapper.GeStation20210727Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeStation20210727">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeStation20210727">
             <result property="name" column="name" jdbcType="VARCHAR"/>
             <result property="url" column="url" jdbcType="VARCHAR"/>
             <result property="parent_partner" column="parent_partner" jdbcType="OTHER"/>

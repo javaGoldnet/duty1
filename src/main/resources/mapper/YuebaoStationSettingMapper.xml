@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.YuebaoStationSettingMapper">
+<mapper namespace="com.goldnet.duty.mapper.YuebaoStationSettingMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.YuebaoStationSetting">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.YuebaoStationSetting">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="account1" column="account1" jdbcType="OTHER"/>
             <result property="station_id" column="station_id" jdbcType="OTHER"/>

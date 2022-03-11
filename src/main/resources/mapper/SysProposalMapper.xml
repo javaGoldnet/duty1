@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysProposalMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysProposalMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysProposal">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysProposal">
             <result property="id" column="id" jdbcType="OTHER"/>
             <result property="proposal_type" column="proposal_type" jdbcType="VARCHAR"/>
             <result property="proposal_content" column="proposal_content" jdbcType="VARCHAR"/>

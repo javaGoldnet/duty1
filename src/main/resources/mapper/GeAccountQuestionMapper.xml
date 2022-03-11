@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeAccountQuestionMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeAccountQuestionMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeAccountQuestion">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeAccountQuestion">
             <id property="question_id" column="question_id" jdbcType="OTHER"/>
             <result property="code" column="code" jdbcType="VARCHAR"/>
             <result property="error_range" column="error_range" jdbcType="OTHER"/>

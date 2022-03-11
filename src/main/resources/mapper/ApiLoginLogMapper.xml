@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.ApiLoginLogMapper">
+<mapper namespace="com.goldnet.duty.mapper.ApiLoginLogMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.ApiLoginLog">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.ApiLoginLog">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="account_id" column="account_id" jdbcType="OTHER"/>
             <result property="account" column="account" jdbcType="VARCHAR"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeChipsUsersMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeChipsUsersMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeChipsUsers">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeChipsUsers">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="account6" column="account6" jdbcType="OTHER"/>
             <result property="chips" column="chips" jdbcType="OTHER"/>

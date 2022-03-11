@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.NetLineMapper">
+<mapper namespace="com.goldnet.duty.mapper.NetLineMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.NetLine">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.NetLine">
             <id property="net_line_id" column="net_line_id" jdbcType="OTHER"/>
             <result property="website_name" column="website_name" jdbcType="VARCHAR"/>
             <result property="sort" column="sort" jdbcType="OTHER"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.PromotionRechargeRebateMapper">
+<mapper namespace="com.goldnet.duty.mapper.PromotionRechargeRebateMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.PromotionRechargeRebate">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.PromotionRechargeRebate">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="account1" column="account1" jdbcType="OTHER"/>
             <result property="record_no" column="record_no" jdbcType="VARCHAR"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.AtAgentRatioMapper">
+<mapper namespace="com.goldnet.duty.mapper.AtAgentRatioMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.AtAgentRatio">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.AtAgentRatio">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="actual_ratio" column="actual_ratio" jdbcType="NUMERIC"/>
             <result property="thows_ratio_open" column="thows_ratio_open" jdbcType="VARCHAR"/>

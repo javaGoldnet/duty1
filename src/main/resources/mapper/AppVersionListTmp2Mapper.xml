@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.AppVersionListTmp2Mapper">
+<mapper namespace="com.goldnet.duty.mapper.AppVersionListTmp2Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.AppVersionListTmp2">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.AppVersionListTmp2">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="app_type" column="app_type" jdbcType="OTHER"/>
             <result property="device_type" column="device_type" jdbcType="OTHER"/>

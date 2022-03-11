@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GePeriodStatusMapper">
+<mapper namespace="com.goldnet.duty.mapper.GePeriodStatusMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GePeriodStatus">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GePeriodStatus">
             <id property="period_status_id" column="period_status_id" jdbcType="OTHER"/>
             <result property="period_date" column="period_date" jdbcType="VARCHAR"/>
             <result property="period_code" column="period_code" jdbcType="VARCHAR"/>

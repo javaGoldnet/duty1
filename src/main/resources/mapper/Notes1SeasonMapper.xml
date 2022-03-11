@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.Notes1SeasonMapper">
+<mapper namespace="com.goldnet.duty.mapper.Notes1SeasonMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.Notes1Season">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.Notes1Season">
             <id property="a_one" column="a_one" jdbcType="OTHER"/>
             <result property="b_two" column="b_two" jdbcType="VARCHAR"/>
             <result property="c_three" column="c_three" jdbcType="VARCHAR"/>

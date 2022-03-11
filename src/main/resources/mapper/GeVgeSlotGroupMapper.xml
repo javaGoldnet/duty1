@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeVgeSlotGroupMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeVgeSlotGroupMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeVgeSlotGroup">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeVgeSlotGroup">
             <id property="gid" column="gid" jdbcType="OTHER"/>
             <result property="group_name" column="group_name" jdbcType="VARCHAR"/>
             <result property="group_type" column="group_type" jdbcType="OTHER"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyAddAgentSetMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyAddAgentSetMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyAddAgentSet">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyAddAgentSet">
             <id property="add_agent_set_id" column="add_agent_set_id" jdbcType="OTHER"/>
             <result property="field_name" column="field_name" jdbcType="VARCHAR"/>
             <result property="field_type" column="field_type" jdbcType="OTHER"/>

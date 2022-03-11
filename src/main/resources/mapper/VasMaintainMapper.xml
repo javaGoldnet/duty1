@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.VasMaintainMapper">
+<mapper namespace="com.goldnet.duty.mapper.VasMaintainMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.VasMaintain">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.VasMaintain">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="agent_start_time" column="agent_start_time" jdbcType="TIMESTAMP"/>
             <result property="agent_end_time" column="agent_end_time" jdbcType="TIMESTAMP"/>

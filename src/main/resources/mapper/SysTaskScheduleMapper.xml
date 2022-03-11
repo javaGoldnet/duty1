@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysTaskScheduleMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysTaskScheduleMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysTaskSchedule">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysTaskSchedule">
             <id property="schedule_id" column="schedule_id" jdbcType="OTHER"/>
             <result property="schedule_name" column="schedule_name" jdbcType="VARCHAR"/>
             <result property="task_id" column="task_id" jdbcType="OTHER"/>

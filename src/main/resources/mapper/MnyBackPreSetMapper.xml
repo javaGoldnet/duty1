@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyBackPreSetMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyBackPreSetMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyBackPreSet">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyBackPreSet">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="valid_total_bet" column="valid_total_bet" jdbcType="NUMERIC"/>
             <result property="pre_up_limit" column="pre_up_limit" jdbcType="NUMERIC"/>

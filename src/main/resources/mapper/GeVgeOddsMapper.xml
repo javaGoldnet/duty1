@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeVgeOddsMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeVgeOddsMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeVgeOdds">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeVgeOdds">
             <id property="oid" column="oid" jdbcType="OTHER"/>
             <result property="ochoose_chance" column="ochoose_chance" jdbcType="OTHER"/>
             <result property="owin_chance" column="owin_chance" jdbcType="NUMERIC"/>

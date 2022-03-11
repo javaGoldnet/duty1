@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysMobileModelStationMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysMobileModelStationMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysMobileModelStation">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysMobileModelStation">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="account1" column="account1" jdbcType="OTHER"/>
             <result property="station_sub_id" column="station_sub_id" jdbcType="OTHER"/>

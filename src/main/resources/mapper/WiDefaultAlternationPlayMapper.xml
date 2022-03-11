@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.WiDefaultAlternationPlayMapper">
+<mapper namespace="com.goldnet.duty.mapper.WiDefaultAlternationPlayMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.WiDefaultAlternationPlay">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.WiDefaultAlternationPlay">
             <id property="play_id" column="play_id" jdbcType="OTHER"/>
             <result property="ddgd_id" column="ddgd_id" jdbcType="OTHER"/>
             <result property="create_user" column="create_user" jdbcType="VARCHAR"/>

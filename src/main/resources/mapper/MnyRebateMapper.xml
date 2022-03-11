@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyRebateMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyRebateMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyRebate">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyRebate">
             <id property="rebate_id" column="rebate_id" jdbcType="OTHER"/>
             <result property="agent_id" column="agent_id" jdbcType="OTHER"/>
             <result property="ddgd_id" column="ddgd_id" jdbcType="OTHER"/>

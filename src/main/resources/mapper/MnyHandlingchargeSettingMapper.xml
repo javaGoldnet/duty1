@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyHandlingchargeSettingMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyHandlingchargeSettingMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyHandlingchargeSetting">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyHandlingchargeSetting">
             <id property="handlingcharge_id" column="handlingcharge_id" jdbcType="OTHER"/>
             <result property="currency_id" column="currency_id" jdbcType="OTHER"/>
             <result property="ddgd_id" column="ddgd_id" jdbcType="OTHER"/>

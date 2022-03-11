@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GePeriodLhcDftMapper">
+<mapper namespace="com.goldnet.duty.mapper.GePeriodLhcDftMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GePeriodLhcDft">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GePeriodLhcDft">
             <id property="period_lhc_dft_id" column="period_lhc_dft_id" jdbcType="OTHER"/>
             <result property="lottery_code" column="lottery_code" jdbcType="VARCHAR"/>
             <result property="create_user" column="create_user" jdbcType="VARCHAR"/>

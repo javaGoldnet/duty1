@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeVideoHostForwardMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeVideoHostForwardMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeVideoHostForward">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeVideoHostForward">
             <id property="host_forward_id" column="host_forward_id" jdbcType="OTHER"/>
             <result property="host_id" column="host_id" jdbcType="OTHER"/>
             <result property="forward_id" column="forward_id" jdbcType="OTHER"/>

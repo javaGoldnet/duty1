@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.WiEditPreActivityMapper">
+<mapper namespace="com.goldnet.duty.mapper.WiEditPreActivityMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.WiEditPreActivity">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.WiEditPreActivity">
             <id property="activity_id" column="activity_id" jdbcType="OTHER"/>
             <result property="ddgd_id" column="ddgd_id" jdbcType="OTHER"/>
             <result property="create_user" column="create_user" jdbcType="VARCHAR"/>

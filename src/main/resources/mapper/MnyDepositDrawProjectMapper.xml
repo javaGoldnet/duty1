@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.MnyDepositDrawProjectMapper">
+<mapper namespace="com.goldnet.duty.mapper.MnyDepositDrawProjectMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.MnyDepositDrawProject">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.MnyDepositDrawProject">
             <id property="project_id" column="project_id" jdbcType="OTHER"/>
             <result property="project_name" column="project_name" jdbcType="VARCHAR"/>
             <result property="create_user" column="create_user" jdbcType="VARCHAR"/>

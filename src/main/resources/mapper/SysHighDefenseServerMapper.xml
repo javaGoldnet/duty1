@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysHighDefenseServerMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysHighDefenseServerMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysHighDefenseServer">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysHighDefenseServer">
             <result property="id" column="id" jdbcType="OTHER"/>
             <result property="ip" column="ip" jdbcType="VARCHAR"/>
             <result property="type" column="type" jdbcType="OTHER"/>

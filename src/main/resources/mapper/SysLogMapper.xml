@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysLogMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysLogMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysLog">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysLog">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="task_name" column="task_name" jdbcType="VARCHAR"/>
             <result property="exe_time" column="exe_time" jdbcType="VARCHAR"/>

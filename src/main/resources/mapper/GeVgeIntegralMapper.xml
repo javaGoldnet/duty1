@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeVgeIntegralMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeVgeIntegralMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeVgeIntegral">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeVgeIntegral">
             <id property="int_id" column="int_id" jdbcType="OTHER"/>
             <result property="ratio_money" column="ratio_money" jdbcType="OTHER"/>
             <result property="ratio_integral" column="ratio_integral" jdbcType="OTHER"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TyBettingDetails2Mapper">
+<mapper namespace="com.goldnet.duty.mapper.TyBettingDetails2Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TyBettingDetails2">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TyBettingDetails2">
             <id property="detail_id" column="detail_id" jdbcType="OTHER"/>
             <result property="betting_code" column="betting_code" jdbcType="VARCHAR"/>
             <result property="betting_date" column="betting_date" jdbcType="TIMESTAMP"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TpsPlatformInfoMapper">
+<mapper namespace="com.goldnet.duty.mapper.TpsPlatformInfoMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TpsPlatformInfo">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TpsPlatformInfo">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="platform_name" column="platform_name" jdbcType="VARCHAR"/>
             <result property="platform_code" column="platform_code" jdbcType="VARCHAR"/>

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TmpWiOnlineDepositMapper">
+<mapper namespace="com.goldnet.duty.mapper.TmpWiOnlineDepositMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TmpWiOnlineDeposit">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TmpWiOnlineDeposit">
             <result property="online_deposit_id" column="online_deposit_id" jdbcType="OTHER"/>
             <result property="code" column="code" jdbcType="VARCHAR"/>
             <result property="title_tra" column="title_tra" jdbcType="VARCHAR"/>

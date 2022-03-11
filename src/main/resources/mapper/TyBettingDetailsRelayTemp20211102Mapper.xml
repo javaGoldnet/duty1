@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.TyBettingDetailsRelayTemp20211102Mapper">
+<mapper namespace="com.goldnet.duty.mapper.TyBettingDetailsRelayTemp20211102Mapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.TyBettingDetailsRelayTemp20211102">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.TyBettingDetailsRelayTemp20211102">
             <result property="create_user" column="create_user" jdbcType="VARCHAR"/>
             <result property="account_id6" column="account_id6" jdbcType="OTHER"/>
             <result property="sum" column="sum" jdbcType="NUMERIC"/>

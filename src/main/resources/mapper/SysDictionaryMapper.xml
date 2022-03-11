@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.SysDictionaryMapper">
+<mapper namespace="com.goldnet.duty.mapper.SysDictionaryMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.SysDictionary">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.SysDictionary">
             <id property="dictionary_id" column="dictionary_id" jdbcType="OTHER"/>
             <result property="code" column="code" jdbcType="VARCHAR"/>
             <result property="name" column="name" jdbcType="VARCHAR"/>

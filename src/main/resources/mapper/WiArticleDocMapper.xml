@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.WiArticleDocMapper">
+<mapper namespace="com.goldnet.duty.mapper.WiArticleDocMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.WiArticleDoc">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.WiArticleDoc">
             <id property="id" column="id" jdbcType="OTHER"/>
             <result property="ddgd_id" column="ddgd_id" jdbcType="OTHER"/>
             <result property="type" column="type" jdbcType="VARCHAR"/>

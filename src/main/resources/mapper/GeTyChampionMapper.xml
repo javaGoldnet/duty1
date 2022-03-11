@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeTyChampionMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeTyChampionMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeTyChampion">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeTyChampion">
             <id property="win_id" column="win_id" jdbcType="OTHER"/>
             <result property="t_name" column="t_name" jdbcType="VARCHAR"/>
             <result property="create_date" column="create_date" jdbcType="TIMESTAMP"/>

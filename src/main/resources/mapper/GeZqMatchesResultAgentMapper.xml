@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeZqMatchesResultAgentMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeZqMatchesResultAgentMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeZqMatchesResultAgent">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeZqMatchesResultAgent">
             <result property="matches_result_id" column="matches_result_id" jdbcType="OTHER"/>
             <result property="u_h_score" column="u_h_score" jdbcType="OTHER"/>
             <result property="u_g_score" column="u_g_score" jdbcType="OTHER"/>

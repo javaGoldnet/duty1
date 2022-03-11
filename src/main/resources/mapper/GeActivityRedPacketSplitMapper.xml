@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeActivityRedPacketSplitMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeActivityRedPacketSplitMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeActivityRedPacketSplit">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeActivityRedPacketSplit">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="activity_red_packet_id" column="activity_red_packet_id" jdbcType="BIGINT"/>
             <result property="amount" column="amount" jdbcType="NUMERIC"/>

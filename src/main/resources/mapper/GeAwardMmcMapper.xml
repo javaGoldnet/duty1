@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="generator.mapper.GeAwardMmcMapper">
+<mapper namespace="com.goldnet.duty.mapper.GeAwardMmcMapper">
 
-    <resultMap id="BaseResultMap" type="generator.entity.GeAwardMmc">
+    <resultMap id="BaseResultMap" type="com.goldnet.duty.entity.GeAwardMmc">
             <id property="award_id" column="award_id" jdbcType="OTHER"/>
             <result property="period" column="period" jdbcType="VARCHAR"/>
             <result property="award_date" column="award_date" jdbcType="TIMESTAMP"/>
